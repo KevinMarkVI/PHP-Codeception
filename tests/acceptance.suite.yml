@@ -1,0 +1,15 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver
+    config:
+        WebDriver:
+            url: http://saucelabs.com
+            browser: 'chrome'
+            capabilities:
+                platform: 'OS X 10.11'
+                version: '48'
+            host: 'USERNAME:ACCESS_KEY@ondemand.saucelabs.com'
+            port: 80
+            wait: 0
+            restart: true

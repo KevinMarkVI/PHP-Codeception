@@ -1,0 +1,35 @@
+{
+    "name": "neam/codeception-saucelabs-metadata",
+    "description": "Codeception extension that provides metadata to Saucelabs when running tests",
+    "keywords": ["codeception", "saucelabs", "metadata"],
+    "homepage": "https://github.com/neam/codeception-saucelabs-metadata",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fredrik Wollsén",
+            "email": "fredrik@neam.se",
+            "homepage": "http://www.neam.se"
+        },
+        {
+            "name": "Michael Bodnarchuk",
+            "email": "davert.php@mailican.com",
+            "homepage": "http://codeception.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "sauce/sausage": "~0.11"
+    },
+    "require-dev": {
+        "codeception/codeception": ">=2.0.2",
+        "codegyre/robo": "*",
+        "codeception/robo-paracept":"@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Codeception": "src"
+
+        }
+    }
+}
