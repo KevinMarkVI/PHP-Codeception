@@ -38,4 +38,5 @@ Project Dependencies
 ##### [Stack Overflow](http://stackoverflow.com/)
 * A great resource to search for issues not explicitly covered by documentation
 
-##### Parallelism based on Codeception [Example](http://codeception.com/docs/12-ParallelExecution#.Vt22VpMrL4M)
+### Known Issues
+* Does not report to the Sauce Labs Dashboard
