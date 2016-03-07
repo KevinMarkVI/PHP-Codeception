@@ -8,14 +8,14 @@ settings:
     bootstrap: _bootstrap.php
     colors: true
     memory_limit: 1024M
-extensions:
-    enabled:
-        - Codeception\Extension\SaucelabsMetadata
-    config:
-        Codeception\Extension\SaucelabsMetadata:
-            username: <SAUCE_USERNAME>
-            accesskey: <ACCESS KEY>
-            build: foo
-            tags: foo,bar,zoo
+#extensions:
+    # enabled:
+    #     - Codeception\Extension\SaucelabsMetadata
+    # config:
+    #     Codeception\Extension\SaucelabsMetadata:
+    #         username: SAUCE_USERNAME
+    #         accesskey: SAUCE_ACCESS_KEY
+    #         build: foo
+    #         tags: foo,bar,zoo
 groups:
     p*: tests/_log/p*

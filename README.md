@@ -8,13 +8,11 @@ Project Dependencies
   * Install packages
   ```
   $ curl http://getcomposer.org/installer | php
-    $ php composer.phar install
+  $ php composer.phar install
   ```
 
-####Add your Sauce Username and Access key to the codeception.yml file and the acceptance.suite.yml files
-
 ### Running Tests
-
+##### Parallelism based on Codeception [Example](http://codeception.com/docs/12-ParallelExecution#.Vt22VpMrL4M)
 * Tests in Parallel:
   ```
   $ vendor/bin/robo parallel:all
@@ -40,3 +38,4 @@ Project Dependencies
 ##### [Stack Overflow](http://stackoverflow.com/)
 * A great resource to search for issues not explicitly covered by documentation
 
+##### Parallelism based on Codeception [Example](http://codeception.com/docs/12-ParallelExecution#.Vt22VpMrL4M)
