@@ -5,7 +5,7 @@
     "homepage": "",
     "type": "library",
     "license": "MIT",
-    "authors": ""
+    "authors": "",
     "require": {
         "php": ">=5.3.3",
         "sauce/sausage": "~0.11"
